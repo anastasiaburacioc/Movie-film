@@ -1,0 +1,64 @@
+body{
+    background-color: #333333;
+}
+#movie{
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    background-image: url(images/c328bad6.png);
+    /*background-repeat: no-repeat;*/
+}
+#movie img{
+    height: 20vh;
+    /*opacity: 0.5;*/
+}
+.wrapper{
+    width: 30vh;
+    height: 30vh;
+    /*background-color: blue;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: calc(33.33vw - 15vh);
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(48,12,45,1),rgba(114,120,120,1));
+box-shadow: 0 0 15px #333333;
+
+}
+.film{
+    position: absolute;
+    top: calc(50% - 11vh);
+    left: calc(-33.33vw + 15vh);
+    width: 3000px;
+    background-color: #999;
+    height: 22vh;
+    width: calc((100vh / 3 + 2vh) * 7);
+border-image: radial-gradient(red, white) ;
+border-style: image;
+
+}
+img{
+    padding: 1vh;
+}
+.controls{
+    width: 25vh;
+    height: 25vh;
+    /*background-color: #666;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 25vh;
+    background-image: linear-gradient(110deg, rgba(100,100,100,0.8),rgba(0,0,0,0.6));
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px #222;
+}
+.controls i{
+    font-size: 5vh;
+    
+  
+}
